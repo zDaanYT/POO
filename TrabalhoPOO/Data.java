@@ -29,7 +29,7 @@ public class Data {
       if (ano > 0 && ano >= 1950 && ano <= 2026) {
          this.ano = ano;
       } else {
-         System.out.println("[ERRO] Ano invalido.\n");
+         System.out.println("[ERRO] Ano invalido.\n");     
       }    
    } 
    
@@ -43,5 +43,10 @@ public class Data {
    
    public int getAno () {
       return this.ano;
+   }
+   
+   @Override
+   public String toString () {
+      return getDia() + "/" + getMes() + "/" + getAno(); 
    }
 }
