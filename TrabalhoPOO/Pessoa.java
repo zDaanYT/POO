@@ -1,20 +1,20 @@
 public class Pessoa {
 	private String nome;
 	private String cpf;
-   private Data nascimento;
-   private String telefone;
+   	private Data nascimento;
+   	private String telefone;
 
 	public Pessoa (String nome, String cpf, Data nascimento, String telefone) {
 		setNome(nome); // já validado.
 		setCPF(cpf); // já validado.
-      setNascimento(nascimento); // já validado.
-      setTelefone(telefone); // já validado.
+     	setNascimento(nascimento); // já validado.
+      	setTelefone(telefone); // já validado.
 	}
    
    public Pessoa (String nome, String cpf, Data nascimento) {
 		setNome(nome); // já validado.
 		setCPF(cpf); // já validado.
-      setNascimento(nascimento); // já validado.
+      	setNascimento(nascimento); // já validado.
 	}
 	
 	public void setNome (String nome) {
