@@ -64,7 +64,6 @@ public class Pessoa {
 		return this.telefone;
 	}
    
-	@Override
 	public String toString() {
     	return "Nome: " + getNome() + 
     	"\nCPF: " + getCPF() + 
