@@ -66,9 +66,9 @@ public class Pessoa {
    
 	@Override
 	public String toString() {
-    		return "Nome: " + getNome() + 
-         "\nCPF: " + getCPF() + 
-         "\nData de nascimento: " + getNascimento() + 
-         "\nTelefone: " + getTelefone(); 
+    	return "Nome: " + getNome() + 
+    	"\nCPF: " + getCPF() + 
+     	"\nData de nascimento: " + getNascimento() +     
+		"\nTelefone: " + getTelefone(); 
    }
 }
