@@ -1,5 +1,5 @@
 public class Funcionario extends Pessoa {
-	private double salario;
+   private double salario;
    private String registro;
 
 	public Funcionario (String nome, String cpf, Data nascimento, String telefone, double salario, String registro) {
@@ -16,9 +16,9 @@ public class Funcionario extends Pessoa {
       }
    }
    
-	public final double getSalario () {
+   public final double getSalario () {
 		return this.salario;
-	}
+   }
    
    public void setRegistro (String registro) {
       if (registro != null && registro.matches("\\d{8}")) {
@@ -43,7 +43,8 @@ public class Funcionario extends Pessoa {
 	@Override
 	public String toString() {
     	return super.toString() + 
-        "\nSalário: " + getSalario() + 
+        "\nSalario bruto: " + getSalario() +
+		"\nSalario liquido: " + getSalarioBonificado() +
         "\nRegistro: " + getRegistro();
 	}
 }
