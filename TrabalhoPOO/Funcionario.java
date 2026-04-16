@@ -42,9 +42,9 @@ public class Funcionario extends Pessoa {
 
 	@Override
 	public String toString() {
-    		return "Nome: " + getNome() + 
-         "\nCPF: " + getCPF() +
-         "\nSalário: " + getSalario() + 
-         "\nRegistro: " + getRegistro();
+    	return "Nome: " + getNome() + 
+        "\nCPF: " + getCPF() +
+        "\nSalário: " + getSalario() + 
+        "\nRegistro: " + getRegistro();
 	}
 }
