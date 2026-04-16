@@ -44,7 +44,7 @@ public class Funcionario extends Pessoa {
 	public String toString() {
     	return super.toString() + 
         "\nSalario bruto: " + getSalario() +
-		"\nSalario liquido: " + getSalarioBonificado() +
+		"\nSalario liquido (bonificado): " + getSalarioBonificado() +
         "\nRegistro: " + getRegistro();
 	}
 }
