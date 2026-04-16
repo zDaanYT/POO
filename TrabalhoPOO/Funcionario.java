@@ -42,8 +42,7 @@ public class Funcionario extends Pessoa {
 
 	@Override
 	public String toString() {
-    	return "Nome: " + getNome() + 
-        "\nCPF: " + getCPF() +
+    	return super.toString() + 
         "\nSalário: " + getSalario() + 
         "\nRegistro: " + getRegistro();
 	}
