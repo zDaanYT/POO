@@ -46,7 +46,8 @@ public class Aluno extends Pessoa {
          matricula = true;
          this.disciplinas = disciplinas;
       } else {
-         System.out.println("[ERRO] Inpossivel matricular.");
+         System.out.println("[ERRO] Impossivel matricular.");
+         matricula = false;
       }
    }
    
