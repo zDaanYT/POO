@@ -43,11 +43,11 @@ public class Aluno extends Pessoa {
    
    public void matricular (int disciplinas) {
       if (disciplinas > 0) {
-         matricula = true;
+         this.matricula = true;
          this.disciplinas = disciplinas;
       } else {
          System.out.println("[ERRO] Impossivel matricular.");
-         matricula = false;
+         this.matricula = false;
       }
    }
    
