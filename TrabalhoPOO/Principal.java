@@ -10,6 +10,6 @@ public class Principal {
       
       System.out.println(alunos[0]);
 
-      // Teste de commits
+      // Go drinking water
    }
 }
