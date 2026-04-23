@@ -3,6 +3,7 @@ public class Principal {
       Data  nascimento[] = new Data[6];
       Aluno aluno[] = new Aluno[1];
       Funcionario chefe[] = new Chefe[1];
+      Funcionario professor[] = new Professor[1]
       
       nascimento[0] = new Data(00, 00, 0000); 
       aluno[0] = new Aluno();
@@ -25,5 +26,16 @@ public class Principal {
       chefe[0].setNascimento(new Data(15, 08, 1980));
 
       System.out.println(chefe[0]);
+
+      nascimento[2] = new Data(00, 00, 0000);
+      professor[0] = new Professor();
+      professor[0].setNome("Maria Oliveira");
+      professor[0].setCpf("11122233344");
+      professor[0].setNascimento(nascimento[2]);
+      professor[0].setTelefone("42991647496");
+      professor[0].setMatricula("987654321");
+      professor[0].setNascimento(new Data(10, 12, 1985));
+
+      System.out.println(professor[0]);
    }
 }
