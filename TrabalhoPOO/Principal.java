@@ -1,9 +1,9 @@
 public class Principal {
    public static void main(String args[]) {
-      Data  nascimento[] = new Data[6];
+      Data nascimento[] = new Data[6];
       Aluno aluno[] = new Aluno[1];
       Funcionario funcionario[] = new Funcionario[1];
-      Funcionario professor[] = new Professor[1]
+      Funcionario professor[] = new Professor[1];
       Funcionario chefe[] = new Chefe[1];
       
       nascimento[0] = new Data(00, 00, 0000); 
@@ -27,8 +27,8 @@ public class Principal {
       chefe[0] = new Chefe();
       chefe[0].setNome("Carlos Silva");
       chefe[0].setCPF("09876543210");
-      chefe[0].setCargo("Diretor");
       chefe[0].setNascimento(nascimento[1]);
+      chefe[0].setCargo("Diretor");
       chefe[0].setTelefone("4284000000");
       chefe[0].setRegistro("1456789");
       chefe[0].setSalario(5000.00);
