@@ -4,7 +4,7 @@ public class Principal {
       Aluno aluno[] = new Aluno[1];
       Funcionario chefe[] = new Chefe[1];
       
-      nascimento[0] = new Data(00, 00, 0000);
+      nascimento[0] = new Data(00, 00, 0000); 
       aluno[0] = new Aluno();
       aluno[0].setNome("Danilo Moreira Ribeiro");
       aluno[0].setCpf("12345678900");
@@ -14,6 +14,16 @@ public class Principal {
       aluno[0].setNascimento(new Data(24, 05, 2004));
       
       System.out.println(aluno[0]);
-      
+
+      nascimento[1] = new Data(00, 00, 0000);
+      chefe[0] = new Chefe();
+      chefe[0].setNome("Carlos Silva");
+      chefe[0].setCpf("09876543210");
+      chefe[0].setNascimento(nascimento[1]);
+      chefe[0].setTelefone("42991647496");
+      chefe[0].setMatricula("123456789");
+      chefe[0].setNascimento(new Data(15, 08, 1980));
+
+      System.out.println(chefe[0]);
    }
 }
