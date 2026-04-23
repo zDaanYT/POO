@@ -16,12 +16,18 @@ public class Principal {
       aluno[0].setDisciplinas(5);
       aluno[0].setNascimento(new Data(24, 05, 2004));
       
-      System.out.println(aluno[0]);
+      aluno[0].matricular(aluno[0].getDisciplinas());
+      
+      if (aluno[0].this.matricula == true) {
+         System.out.println("Aluno matriculado com sucesso!");
+         System.out.println(aluno[0]);
+      } else { System.out.println("Matricula falhou."); }
 
       nascimento[1] = new Data(00, 00, 0000);
       chefe[0] = new Chefe();
       chefe[0].setNome("Carlos Silva");
       chefe[0].setCPF("09876543210");
+      chefe[0].setCargo("Diretor");
       chefe[0].setNascimento(nascimento[1]);
       chefe[0].setTelefone("4284000000");
       chefe[0].setRegistro("1456789");
@@ -33,7 +39,7 @@ public class Principal {
       nascimento[2] = new Data(00, 00, 0000);
       professor[0] = new Professor();
       professor[0].setNome("Maria Oliveira");
-      professor[0].setCPF("11122233344");
+      professor[0].setCPF("11223344556");
       professor[0].setNascimento(nascimento[2]);
       professor[0].setTelefone("42991660000");
       professor[0].setRegistro("9876543");
@@ -42,5 +48,6 @@ public class Principal {
       professor[0].setNascimento(new Data(10, 12, 1985));
 
       System.out.println(professor[0]);
+
    }
 }
