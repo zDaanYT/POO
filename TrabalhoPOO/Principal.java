@@ -49,5 +49,17 @@ public class Principal {
 
       System.out.println(professor[0]);
 
+      nascimento[3] = new Data(00, 00, 0000);
+      funcionario[0] = new Funcionario();
+      funcionario[0].setNome("João Santos");
+      funcionario[0].setCPF("11122233344");
+      funcionario[0].setNascimento(nascimento[3]);
+      funcionario[0].setTelefone("42991670000");
+      funcionario[0].setRegistro("1234567");
+      funcionario[0].setSalario(2500.00);
+      funcionario[0].setNascimento(new Data(20, 03, 1990));
+
+      System.out.println(funcionario[0]); 
+
    }
 }
