@@ -9,7 +9,6 @@ public class Principal {
       alunos[0].setNascimento(new Data(24, 05, 2004));
       
       System.out.println(alunos[0]);
-
-      // Go drinking water
+      // Commit teste
    }
 }
