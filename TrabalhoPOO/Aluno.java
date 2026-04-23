@@ -53,6 +53,9 @@ public class Aluno extends Pessoa {
    
    @Override
    public String toString () {
-      return super.toString() + "\nRA: " + getRA() + "\nDisciplinas: " + getDisciplinas() + "\nCarga horaria semanal: " + getCargaSemanal();
+      return super.toString() + 
+      "\nRA: " + getRA() + 
+      "\nDisciplinas: " + getDisciplinas() + 
+      "\nCarga horaria semanal: " + getCargaSemanal();
    }
 }
