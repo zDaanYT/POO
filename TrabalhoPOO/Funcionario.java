@@ -4,7 +4,7 @@ public class Funcionario extends Pessoa {
 
 	public Funcionario (String nome, String cpf, Data nascimento, String telefone, double salario, String registro) {
 		super(nome, cpf, nascimento, telefone);
-		setSalario(salario); // já validado.
+		   setSalario(salario); // já validado.
       	setRegistro(registro); // já validado.
 	}
    
@@ -43,8 +43,8 @@ public class Funcionario extends Pessoa {
 	@Override
 	public String toString() {
     	return super.toString() + 
-        "\nSalario bruto: " + getSalario() +
-		"\nSalario liquido (bonificado): " + getSalarioBonificado() +
-        "\nRegistro: " + getRegistro();
+         "\nSalario bruto: " + getSalario() +
+		   "\nSalario liquido (bonificado): " + getSalarioBonificado() +
+         "\nRegistro: " + getRegistro();
 	}
 }
