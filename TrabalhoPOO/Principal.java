@@ -48,8 +48,7 @@ public class Principal {
       professor[0].setNascimento(new Data(10, 12, 1985));
 
       System.out.println(professor[0]);
-
-      //teste de commit
+      // Teste de bonificação do professor
 
    }
 }
