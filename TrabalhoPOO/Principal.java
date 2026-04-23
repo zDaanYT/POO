@@ -8,7 +8,8 @@ public class Principal {
       alunos[0] = new Aluno("Danilo Moreira Ribeiro", "12345678900", nascimento[0], "42991647496", "25031526");
       alunos[0].setNascimento(new Data(24, 05, 2004));
       
-      System.out.println(alunos[0]);
+      System.out.println(alunos[0]);
 
+      // Teste de commits
    }
 }
