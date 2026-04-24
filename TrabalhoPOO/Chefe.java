@@ -18,10 +18,12 @@ public class Chefe extends Funcionario {
       return this.cargo;
    }
    
+   @Override
    public double bonificar () { // Método sobreposto
 		return getSalario() * 0.2;
 	}
-   
+  
+   @Override
    public double getSalarioBonificado() {
       return getSalario() + bonificar();
    }
