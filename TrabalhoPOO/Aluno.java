@@ -6,11 +6,13 @@ public class Aluno extends Pessoa {
     public Aluno (String nome, String cpf, Data nascimento, String telefone, String RA) {
         super(nome, cpf, nascimento, telefone);
         setRA(RA); // já validado.
+        this.matricula = false;
     }
 
     public Aluno (String nome, String cpf, Data nascimento, String RA) {
         super(nome, cpf, nascimento);
         setRA(RA); // já validado.
+        this.matricula = false;
     }   
    
    public void setRA (String RA) {
@@ -56,6 +58,6 @@ public class Aluno extends Pessoa {
       return super.toString() + 
       "\nRA: " + getRA() + 
       "\nDisciplinas: " + getDisciplinas() + 
-      "\nCarga horaria semanal: " + getCargaSemanal();
+      "\nCarga horaria semanal: " + getCargaSemanal() + "h";
    }
 }
