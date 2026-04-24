@@ -58,7 +58,6 @@ public class Principal {
       funcionario[0].setRegistro("1234567");
       funcionario[0].setSalario(2500.00);
       funcionario[0].setNascimento(new Data(20, 03, 1990));
-
       System.out.println(funcionario[0]); 
 
    }
