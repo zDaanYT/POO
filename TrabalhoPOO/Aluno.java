@@ -3,7 +3,7 @@ public class Aluno extends Pessoa {
    private int disciplinas;
    private boolean matricula;
    
-    public Aluno (String nome, String cpf, Data nascimento, String telefone, String RA) {
+   public Aluno (String nome, String cpf, Data nascimento, String telefone, String RA) {
         super(nome, cpf, nascimento, telefone);
         setRA(RA); // já validado.
         this.matricula = false;
