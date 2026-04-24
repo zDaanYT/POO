@@ -1,8 +1,8 @@
 public class Pessoa {
 	private String nome;
 	private String cpf;
-   	private Data nascimento;
-   	private String telefone;
+ private Data nascimento;
+ private String telefone;
 
 	public Pessoa (String nome, String cpf, Data nascimento, String telefone) {
 		setNome(nome); // já validado.
@@ -11,7 +11,7 @@ public class Pessoa {
       	setTelefone(telefone); // já validado.
 	}
    
-   public Pessoa (String nome, String cpf, Data nascimento) {
+ public Pessoa (String nome, String cpf, Data nascimento) {
 		setNome(nome); // já validado.
 		setCPF(cpf); // já validado.
       	setNascimento(nascimento); // já validado.
@@ -67,7 +67,7 @@ public class Pessoa {
 	public String toString() {
     	return "Nome: " + getNome() + 
     	"\nCPF: " + getCPF() + 
-     	"\nData de nascimento: " + getNascimento() +     
-		"\nTelefone: " + getTelefone(); 
+     "\nData de nascimento: " + getNascimento() +     
+		    "\nTelefone: " + getTelefone(); 
    }
 }
