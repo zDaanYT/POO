@@ -33,9 +33,9 @@ public class Professor extends Funcionario {
       return getSalario() + bonificar();
    }
    
-   @Override
+ @Override
 	public String toString() {
-    	return super.toString() + "\nHoras de aula: " + getHorasAula();
+    	return super.toString() + "\nHoras de aula: " + getHorasAula() + "h";
 	}
    
 }
