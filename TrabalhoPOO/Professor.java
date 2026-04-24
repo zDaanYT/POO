@@ -28,6 +28,7 @@ public class Professor extends Funcionario {
 		return 10 * getHorasAula();
 	}
    
+   @Override
    public double getSalarioBonificado() {
       return getSalario() + bonificar();
    }
