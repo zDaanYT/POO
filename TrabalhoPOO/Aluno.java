@@ -53,6 +53,10 @@ public class Aluno extends Pessoa {
       }
    }
    
+   public boolean getMatricula() {
+      return this.matricula;
+   }
+   
    @Override
    public String toString () {
       return super.toString() + 
