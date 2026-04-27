@@ -1,7 +1,7 @@
 public class Chefe extends Funcionario {
    private String cargo;
    
-   public Chefe (String nome, String cpf, Data nascimento, String telefone, double salario, String registro) {
+   public Chefe (String nome, String cpf, Data nascimento, String telefone, double salario, String registro, String cargo) {
       super(nome, cpf, nascimento, telefone, salario, registro);
       setCargo(cargo);
    }
@@ -30,6 +30,6 @@ public class Chefe extends Funcionario {
 	
    @Override
    public String toString() {
-	   return super.toString() + "/nCargo: " + getCargo();
+	   return super.toString() + "\nCargo: " + getCargo();
    }
 }
