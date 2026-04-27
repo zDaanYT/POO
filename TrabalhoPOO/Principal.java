@@ -24,20 +24,17 @@ public class Principal {
 
       // CHEFE
 
-      chefe[0] = new Chefe("Carlos", "52998224725", new Data(15, 8, 1980), "42991640000", 5000.0, "12456789", "Diretor");
+      chefe[0] = new Chefe("Carlos Jorge", "52998224725", new Data(15, 8, 1980), "42991640000", 5000.0, "12456789", "Diretor");
       System.out.println(chefe[0] + "\n");
 
-      professor[0] = new Professor("A", "A", new Data(12, 1, 1980), 0.0, "A", 0);
-      System.out.println(professor[0] + "\n");
+      // PROFFESSOR
 
-      funcionario[0] = new Funcionario("A", "A", new Data(12, 1, 1980), "A", 0.0, "A");
-      funcionario[0].setNome("João Santos");
-      funcionario[0].setCPF("11122233344");
-      funcionario[0].setTelefone("42991670000");
-      funcionario[0].setRegistro("1234567");
-      funcionario[0].setSalario(2500.00);
-      funcionario[0].setNascimento(new Data(20, 3, 1990));
+      professor[0] = new Professor("Maria Oliveira", "52998224725", new Data(10, 12, 1985), "42991660000", 3000.0, "98765432", 40);
+      System.out.println(professor[0] + "\n");
       
+      // FUNCIONÁRIO
+      
+      funcionario[0] = new Funcionario("Joao Santos", "52998224725", new Data(20, 3, 1990), "42991670000", 2500.0, "12345678");
       System.out.println(funcionario[0]); 
 
    }
