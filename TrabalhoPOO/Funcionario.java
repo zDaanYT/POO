@@ -4,9 +4,16 @@ public class Funcionario extends Pessoa {
 
 	public Funcionario (String nome, String cpf, Data nascimento, String telefone, double salario, String registro) {
 		super(nome, cpf, nascimento, telefone);
-		   setSalario(salario); // já validado.
+		setSalario(salario); // já validado.
       	setRegistro(registro); // já validado.
 	}
+
+	public Funcionario (String nome, String cpf, Data nascimento, double salario, String registro) {
+		super(nome, cpf, nascimento);
+		setSalario(salario); // já validado.
+      	setRegistro(registro); // já validado.
+	}
+	
    
    public void setSalario (double salario) {
       if (salario > 0 && salario > 700) {
