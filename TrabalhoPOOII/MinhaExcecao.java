@@ -1,1 +1,1 @@
-public class MinhaExcecao extends Exception { public MinhaExcecao (String erros) {} }
+public class MinhaExcecao extends Exception { public MinhaExcecao (String erros) { super(erros); } }
